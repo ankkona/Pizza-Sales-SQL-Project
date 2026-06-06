@@ -1,6 +1,6 @@
-# Pizza Sales Analysis Using SQL
+# 🍕 Pizza Sales Analysis Using SQL
 
-## Project Overview
+## 📌 Project Overview
 
 This project focuses on analyzing pizza sales data using SQL. The goal is to understand customer ordering patterns, revenue trends, popular pizza categories, and business performance through data-driven insights.
 
@@ -28,10 +28,7 @@ The project uses four datasets:
 
 ## Tools Used
 
-* SQL
-* MySQL
-* Excel
-* Data Analysis Techniques
+* MySQL Server(SSMS 22)
 
 ## Analysis Performed
 
@@ -53,7 +50,7 @@ The following SQL analyses were conducted:
 
 * A total of 21,350 orders were placed.
 * Total revenue generated was approximately $817,860.
-* Customers ordered an average of 2.32 pizzas per order.
+* An average of 138 pizzas were ordered per day.
 * The Thai Chicken Pizza generated the highest revenue.
 * The Classic Deluxe Pizza was the most ordered pizza.
 * Medium and Large pizza sizes were preferred by customers.
@@ -65,8 +62,5 @@ The following SQL analyses were conducted:
 * Popular pizzas should be prioritized during peak hours.
 * High-revenue pizzas can be highlighted in promotional campaigns.
 * Inventory planning can be optimized using demand trends.
-* Peak-hour staffing can improve customer service and operational efficiency.
+* Increase staff during busy lunch and evening hours to improve service speed and customer experience.
 
-## Conclusion
-
-This SQL project demonstrates how sales data can be transformed into meaningful business insights. By analyzing customer preferences, revenue patterns, and ordering behavior, businesses can make better decisions to improve sales performance and customer satisfaction.
