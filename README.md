@@ -1,60 +1,72 @@
-# 🍕 Pizza Sales Data Analytics Project
+# Pizza Sales Analysis Using SQL
 
-## 📌 Project Overview
-This repository showcases a comprehensive data analysis project focused on uncovering performance insights, customer trends, and revenue patterns for a commercial pizza business. By utilizing structured relational data, this project models operational metrics to drive data-backed business decisions regarding menu management, inventory optimization, and staffing efficiency.
+## Project Overview
 
-## 📊 Business Key Performance Indicators (KPIs)
+This project focuses on analyzing pizza sales data using SQL. The goal is to understand customer ordering patterns, revenue trends, popular pizza categories, and business performance through data-driven insights.
 
-| Metric | Performance Value | Strategic Meaning |
-|------|------------------|------------------|
-| Total Volume | 21,350 Orders | Total consumer demand handled across the dataset |
-| Gross Revenue | $817,860.05 | Consolidated gross financial turnover |
-| Operational Baseline | 138 Pizzas / Day | Average daily production load required by the kitchen |
-| Premium Pricing | $35.95 | Maximum single product price anchor (The Greek Pizza) |
+The analysis was performed using multiple datasets containing order details, pizza information, pricing, and pizza categories.
 
+## Objective
 
-## 🗄️ Database Architecture
+The main objectives of this project are:
 
-The analytical pipeline relies on a relational schema comprising four core tables:
+* Analyze overall sales performance
+* Identify top-selling pizzas
+* Understand customer ordering behavior
+* Evaluate revenue contribution by pizza category
+* Discover peak ordering hours
+* Generate business insights using SQL queries
 
-- **orders**  
-  Captures foundational transaction data, including explicit timestamps and calendar dates.
+## Dataset Information
 
-- **orderdetails**  
-  Maps individual itemized breakdowns per transaction, identifying specific quantities and pizza variants selected.
+The project uses four datasets:
 
-- **pizza**  
-  Acts as the operational inventory table matching specific size profiles and item SKU codes to target pricing tiers.
+1. Orders – Contains order date and time information.
+2. Order Details – Contains quantity and pizza information for each order.
+3. Pizzas – Contains pizza sizes and prices.
+4. Pizza Types – Contains pizza names, ingredients, and categories.
 
-- **pizzatypes**  
-  Contains master data detailing descriptive names, ingredient classifications, and core culinary categories.
+## Tools Used
 
+* SQL
+* MySQL
+* Excel
+* Data Analysis Techniques
 
-## 📈 Executive Summary & Key Insights
+## Analysis Performed
 
-### ⏰ Peak Demand & Resource Planning
-- **Dual Rush Hours:** Order volume exhibits predictable spikes twice a day  
-  - Lunch peak: 12:00 PM – 1:00 PM  
-  - Dinner peak: 5:00 PM – 7:00 PM  
-- **Staffing Insight:** Labor allocation and ingredient preparation should be optimized around these time windows to reduce wait times and avoid kitchen bottlenecks.
+The following SQL analyses were conducted:
 
+* Total number of orders
+* Total revenue generated
+* Highest-priced pizza
+* Most common pizza size
+* Top 5 most ordered pizzas
+* Category-wise sales analysis
+* Hourly order distribution
+* Average pizzas ordered per day
+* Top revenue-generating pizzas
+* Revenue contribution percentage by category
+* Cumulative revenue analysis
 
-### 🍕 Customer Preferences & Inventory Mix
-- **Size Dominance:**  
-  - Large (L): 18,956 units sold  
-  - Medium (M): 15,635 units sold  
-  - Small (S): 14,403 units sold  
-  - XL & XXL: Minimal demand  
+## Key Findings
 
-- **Category Performance:**  
-  Chicken recipes dominate top revenue items, while the **Classic category** contributes the highest overall segment revenue at **26.91%**
+* A total of 21,350 orders were placed.
+* Total revenue generated was approximately $817,860.
+* Customers ordered an average of 2.32 pizzas per order.
+* The Thai Chicken Pizza generated the highest revenue.
+* The Classic Deluxe Pizza was the most ordered pizza.
+* Medium and Large pizza sizes were preferred by customers.
+* Orders were concentrated during lunch and evening hours.
+* Chicken and Classic pizzas contributed significantly to overall sales.
 
-### 💼 Revenue & Product Performance
-- **Revenue Uniformity:**  
-  All major categories (Classic, Supreme, Chicken, Veggie) contribute nearly equally to total revenue, showing a balanced product portfolio.
+## Business Insights
 
-- **Menu Engineering Strategy:**  
-  Ranking analysis highlights underperforming items in each category, providing clear opportunities for:
-  - Menu optimization  
-  - Targeted promotions  
-  - Product pruning decisions
+* Popular pizzas should be prioritized during peak hours.
+* High-revenue pizzas can be highlighted in promotional campaigns.
+* Inventory planning can be optimized using demand trends.
+* Peak-hour staffing can improve customer service and operational efficiency.
+
+## Conclusion
+
+This SQL project demonstrates how sales data can be transformed into meaningful business insights. By analyzing customer preferences, revenue patterns, and ordering behavior, businesses can make better decisions to improve sales performance and customer satisfaction.
